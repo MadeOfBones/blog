@@ -1,0 +1,21 @@
+baseURL = 'https://MadeOfBones.github.io/'
+languageCode = 'en-us'
+title = 'Made Of Bones'
+
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = false
+    style = 'dracula'
+    tabWidth = 4
+    wrapperClass = 'highlight'
+    hl_inline = false
+
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
